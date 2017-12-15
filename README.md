@@ -4,13 +4,15 @@ A lightweight client for DNS/WHOIS sleuthing and reporting to dnstrace.
 ## Get Started
 
 Clone this Repo
-`git clone https://github.com/tweedge/dns-badger`
-
-Make the bash script executable
-`chmod +x ./dns-badger/setup.sh`
+```
+git clone https://github.com/tweedge/dns-badger
+```
 
 Run the installation script
-`sudo ./dns-badger/setup.sh`
+```
+cd ./dns-badger
+sudo bash ./setup.sh
+```
 
 If installation is succesful you'll see a message with a Node ID to register
 ```
